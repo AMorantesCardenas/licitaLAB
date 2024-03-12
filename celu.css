@@ -49,4 +49,12 @@
         display: none; /* Oculta la imagen en dispositivos móviles */
     }
 
+    #tconocenos {
+        width: 100%; /* El texto ocupa todo el ancho en dispositivos móviles */
+        margin-right: 0; /* No hay margen a la derecha */
+    }
+
+    #imgconocenos {
+        display: none; /* Ocultar la imagen en dispositivos móviles */
+    }
 }

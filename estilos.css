@@ -51,7 +51,7 @@ main{
 
 nav {
     color: #490a5c;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(220, 220, 220, 1);
     padding: 2px 0; 
     position: fixed;
     top: 0;
@@ -61,6 +61,7 @@ nav {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); /* Añadir sombra */
 }
 
 
@@ -121,6 +122,7 @@ footer {
     color: #fff;
     background-color: rgb(43, 43, 43);
     height: 250px;
+    padding-top: 30px;
     
 }
 
@@ -143,7 +145,8 @@ footer {
 
 #footer {
     color: #fff;
-    font-size: 10px;
+    font-size: 12px;
+
 }
 
 .whatsapp-float {
