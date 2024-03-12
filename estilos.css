@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+}
+
+#container-mbcurso {
+    background-image: url('Imgs/5.jpg');
+    height: 600px;
+    background-size: auto; 
+    background-position: center;
+    display: flex;
+    background-attachment: fixed; /* Establece la imagen de fondo como fija */
+}
+
+#MBCurso {
+    flex: 1;
+    color: #FFF;
+    padding-left: 20%;
+    padding-right: 0;
+    padding-top: 230px;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#MBCursoIMG {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    height: 500px; /* Altura máxima de la imagen */
+    margin-top: calc(60px + 20px); /* Altura del nav + espacio adicional */
+    align-items: start;
+    padding-top: 80px;
+    padding-right: 20%;
+    height: auto;
+}
+
+
+#MBCursoIMG img {
+    width: auto;
+    height: 450px;
+    padding-left: 30%;
+    margin: 0;
+
+}
+
+nav {
+    color: #490a5c;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2px 0; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 24%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+nav ul li {
+    margin-right: 40px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    color: #490a5c;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #fff; /* Cambiar color del texto */
+    background-color: #490a5c; /* Cambiar color de fondo */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    padding: 5px 10px; /* Ajustar el relleno */
+    transition: all 0.3s ease; /* Agregar transición suave */
+}
+
+
+nav img#logo {
+    width: auto; 
+    height: 60px;
+    padding-left: 24%;
+    margin: 10px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#Contacto    {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(43, 43, 43);
+    height: 250px;
+    
+}
+
+#conatctoo a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+a span {
+    display: inline-block; 
+}
+
+a span img {
+    vertical-align: middle; 
+    margin-right: 5px;
+}
+
+footer {
+    height: 50px;
+}
+
+#footer {
+    color: #fff;
+    font-size: 10px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+  }
+  
+  .whatsapp-float img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  
+
+/* mobile */

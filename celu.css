@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1300px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+
+    nav img#logo {
+        width: 150px;
+        padding-left: 0;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 5px 10px;
+    }
+
+    #container-mbcurso {
+        flex-direction: column; /* Cambia la dirección de los elementos a columnas */
+    
+        height: 480px;
+    }
+
+    #MBCurso{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 210px;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+    #MBCursoIMG {
+        flex: 1 1 100%; /* Ambos elementos ocupan todo el ancho */
+    }
+
+    #MBCursoIMG {
+        display: none; /* Oculta la imagen en dispositivos móviles */
+    }
+
+}
