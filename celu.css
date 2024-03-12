@@ -48,13 +48,14 @@
     #MBCursoIMG {
         display: none; /* Oculta la imagen en dispositivos móviles */
     }
-
     #tconocenos {
-        width: 100%; /* El texto ocupa todo el ancho en dispositivos móviles */
-        margin-right: 0; /* No hay margen a la derecha */
+        width: 100%;
+        margin: 10px 0 0;
     }
 
     #imgconocenos {
-        display: none; /* Ocultar la imagen en dispositivos móviles */
+        display: none;
     }
+
 }
+

@@ -1,7 +1,7 @@
 #ttconocenos {
     padding: 100px 10%; 
     color: rgb(0, 0, 0);
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(244, 244, 244);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,11 +21,11 @@
     margin: 0;
     padding-top: 10px;
     border: 0;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(244, 244, 244);
 }
 
 #conocenoss {
-    background-color: rgb(220, 220, 220);
+
     margin: 0;
     padding-top: 100px;
     border: 0;
@@ -38,3 +38,53 @@
     height: auto;
 }
 
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    padding: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #490a5c; /* Cambiar color de la flecha */
+    margin: 0 auto; /* Centrar horizontalmente */
+    animation: arrowAnimation 1.5s infinite alternate; /* Aplicar animación */
+}
+
+@media only screen and (max-width: 1300px) {
+    #conocenos {
+        padding-top: 0; /* Ajustar el padding-top */
+   
+    }
+    
+    #conocenoss {
+    
+        margin: 0;
+        padding-top: 20px;
+        border: 0;
+        font-size: 26px;
+    }
+    #tconocenos{
+        font-size: 14px;
+    }
+    .arrow-down {
+        width: 0;
+        height: 0;
+        padding: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid #490a5c; /* Cambiar color de la flecha */
+        margin: 0 auto; /* Centrar horizontalmente */
+        animation: arrowAnimation 1.5s infinite alternate; /* Aplicar animación */
+    }
+}
+
+
+
+@keyframes arrowAnimation {
+    0% {
+        transform: translateY(0); /* Posición inicial */
+    }
+    100% {
+        transform: translateY(50px); /* Posición final */
+    }
+}

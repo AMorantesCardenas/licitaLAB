@@ -51,7 +51,7 @@ main{
 
 nav {
     color: #490a5c;
-    background-color: rgba(220, 220, 220, 1);
+    background-color: rgba(244, 244, 244, 1);
     padding: 2px 0; 
     position: fixed;
     top: 0;
@@ -102,6 +102,13 @@ nav img#logo {
     height: 60px;
     padding-left: 24%;
     margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+/* Estilos para el enlace del logo al pasar el mouse por encima */
+#logo:hover {
+    transform: translateY(-5px); /* Mover hacia arriba al pasar el mouse */
 }
 
 section {
@@ -122,7 +129,8 @@ footer {
     color: #fff;
     background-color: rgb(43, 43, 43);
     height: 250px;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     
 }
 
