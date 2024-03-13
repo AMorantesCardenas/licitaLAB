@@ -1,4 +1,5 @@
 #aprendealicitar {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +9,7 @@
     background-position: center; /* Centra el fondo horizontalmente */
     padding: 50px; /* Ajusta el espaciado */
 }
+
 
 #taprendealicitar {
     color: #ffff;
@@ -36,24 +38,16 @@
 
 /* Consultas de medios para ajustar el tamaño en resoluciones más pequeñas */
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 900px) {
     #taprendealicitar{
         font-size: 3vw;
-
     }
     #imgaprendealicitar{
         padding-bottom: 0;
-
     }
-    
     #imgaprendealicitar img {
-
-
         max-width: 30%; /* Ancho máximo relativo */
- 
         max-height: 40vw; /* Altura máxima relativa */
         padding-bottom: 0;
     }
-
-
 }

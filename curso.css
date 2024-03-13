@@ -1,4 +1,5 @@
 #cursoo {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center; /* Centra horizontalmente el contenido */
     align-items: center; /* Centra verticalmente el contenido */
