@@ -56,21 +56,15 @@
     animation: arrowAnimation 1.5s infinite alternate; /* Aplicar animación */
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 900px) {
     #conocenos {
-        padding-top: 0;
-
+        padding-top: 30px;
+        font-size: 3vw;
    
     }
     
-    #conocenoss {
-        padding-top: 80px;
-        margin: 0;
-        border: 0;
-        font-size: 1vw;
-    }
     #tconocenos{
-        font-size: 1vw;
+        font-size: 3vw;
         padding-top: 0px;
         margin: 0;
     }
