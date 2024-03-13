@@ -120,9 +120,11 @@ section {
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #bebebe;
     text-align: center;
     padding: 20px 0;
+    font-size: 0.7vw;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -153,11 +155,6 @@ footer {
     height: 50px;
 }
 
-#footer {
-    color: #fff;
-    font-size: 12px;
-
-}
 
 .whatsapp-float {
     position: fixed;
@@ -181,5 +178,6 @@ footer {
   
 
 /* mobile */
+
 
 
