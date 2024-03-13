@@ -4,52 +4,8 @@ body {
     padding: 0;
 }
 
-main{
-    width: 100%;
-}
-
-#container-mbcurso {
-    background-image: url('Imgs/5.jpg');
-    height: 600px;
-    background-size: auto; 
-    background-position: center;
-    display: flex;
-    background-attachment: fixed; /* Establece la imagen de fondo como fija */
-}
-
-#MBCurso {
-    flex: 1;
-    color: #FFF;
-    padding-left: 20%;
-    padding-right: 0;
-    padding-top: 230px;
-    width: 50%;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-#MBCursoIMG {
-    flex: 1;
-    position: relative;
-    overflow: hidden;
-    height: 500px; /* Altura máxima de la imagen */
-    margin-top: calc(60px + 20px); /* Altura del nav + espacio adicional */
-    align-items: start;
-    padding-top: 80px;
-    padding-right: 20%;
-    height: auto;
-}
-
-
-#MBCursoIMG img {
-    width: auto;
-    height: 450px;
-    padding-left: 30%;
-    margin: 0;
-
-}
-
 nav {
+    font-size: 0.9vw;
     color: #490a5c;
     background-color: rgba(244, 244, 244, 1);
     padding: 2px 0; 
@@ -105,6 +61,52 @@ nav img#logo {
     transition: transform 0.3s ease;
 }
 
+main{
+    width: 100%;
+}
+
+#container-mbcurso {
+    background-image: url('Imgs/5.jpg');
+    height: 750px;
+    background-size: auto; 
+    background-position: center;
+    display: flex;
+    background-attachment: fixed; /* Establece la imagen de fondo como fija */
+}
+
+#MBCurso {
+    flex: 1;
+    color: #FFF;
+    padding-left: 20%;
+    padding-right: 0;
+    padding-top: 300px;
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 0.9vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#MBCursoIMG {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    height: auto; /* Altura máxima de la imagen */
+    margin-top: calc(60px + 20px); /* Altura del nav + espacio adicional */
+    align-items: start;
+    padding-top: 80px;
+    padding-right: 20%;
+    height: auto;
+    max-height: 600px;
+}
+
+
+#MBCursoIMG img {
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    padding-left: 30%;
+    margin: 0;
+}
 
 /* Estilos para el enlace del logo al pasar el mouse por encima */
 #logo:hover {
@@ -129,8 +131,8 @@ footer {
     color: #fff;
     background-color: rgb(43, 43, 43);
     height: 250px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
 }
 
@@ -179,3 +181,5 @@ footer {
   
 
 /* mobile */
+
+

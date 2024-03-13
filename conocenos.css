@@ -13,13 +13,17 @@
     width: 100%;
 }
 
+#conocenosB {
+    background-color: rgb(244, 244, 244);
+    height: 50px;
+}
 
 #conocenos {
-    font-size: 25px;
+    font-size: 1vw;
     text-align: center;
     height: auto;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 50px;
     border: 0;
     background-color: rgb(244, 244, 244);
 }
@@ -27,8 +31,10 @@
 #conocenoss {
 
     margin: 0;
-    padding-top: 100px;
+    padding-top: 2px;
+    margin-top: 0px;
     border: 0;
+    font-size: 1.5vw;
 }
 
 #imgconocenoss {
@@ -45,39 +51,40 @@
     padding: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 50px solid #490a5c; /* Cambiar color de la flecha */
+    border-top: 50px solid #e80459; /* Cambiar color de la flecha */
     margin: 0 auto; /* Centrar horizontalmente */
     animation: arrowAnimation 1.5s infinite alternate; /* Aplicar animación */
 }
 
 @media only screen and (max-width: 1300px) {
     #conocenos {
-        padding-top: 0; /* Ajustar el padding-top */
+        padding-top: 0;
+
    
     }
     
     #conocenoss {
-    
+        padding-top: 80px;
         margin: 0;
-        padding-top: 20px;
         border: 0;
-        font-size: 26px;
+        font-size: 5vw;
     }
     #tconocenos{
-        font-size: 14px;
+        font-size: 3vw;
+        padding-top: 0px;
+        margin: 0;
     }
     .arrow-down {
         width: 0;
         height: 0;
         padding: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-top: 50px solid #490a5c; /* Cambiar color de la flecha */
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 30px solid #e80459; /* Cambiar color de la flecha */
         margin: 0 auto; /* Centrar horizontalmente */
         animation: arrowAnimation 1.5s infinite alternate; /* Aplicar animación */
     }
 }
-
 
 
 @keyframes arrowAnimation {

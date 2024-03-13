@@ -1,11 +1,54 @@
-#curso {
-    padding: 200px 10%;
-    background-color: rgb(230, 230, 230);
+#cursoo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
 }
 
-#cursoo {
-    padding-top: 20%;
+#imagen-curso {
+    flex: 1; /* La imagen ocupará el 50% del ancho */
+    text-align: center; /* Centra horizontalmente el contenido de la imagen */
     padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#texto {
+    flex: 1; /* El texto ocupará el otro 50% del ancho */
+}
+
+#texto h2 {
+    text-align: center; /* Centra el título */
+}
+
+#texto ul {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Quita el relleno predeterminado de la lista */
+    text-align: justify; /* Justifica el texto */
+}
+
+#curso{
     text-align: center;
-    color: rgb(31, 165, 223);
+    font-size: 2vw;
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    #curso {
+        padding-top: 100px;
+        font-size: 3vw;
+    }
+
+    #cursoo {
+        flex-direction: column; /* Cambia la dirección de flexión a vertical */
+        align-items: center; /* Centra horizontalmente los elementos */
+    }
+
+    #imagen-curso {
+        order: 2; /* Cambia el orden de la imagen para que esté abajo */
+    }
+
+    #texto {
+        order: 1; /* Cambia el orden del texto para que esté arriba */
+    }
 }

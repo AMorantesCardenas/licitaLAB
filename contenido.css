@@ -1,0 +1,59 @@
+#aprendealicitar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(Imgs/backinfo.png);
+    background-size: cover; /* Ajusta el tamaño del fondo para cubrir completamente el contenedor */
+    background-position: center; /* Centra el fondo horizontalmente */
+    padding: 50px; /* Ajusta el espaciado */
+}
+
+#taprendealicitar {
+    color: #ffff;
+    font-size: 1vw; /* Tamaño de fuente relativo */
+    padding: 20px 0; /* Espaciado */
+}
+
+#imgaprendealicitar {
+    display: flex;
+    justify-content: center;
+    gap: 20%; /* Reducir el espacio entre las imágenes */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 1200px; /* Ancho máximo */
+    margin-top: 20px; /* Espaciado superior */
+    margin-bottom: 20px; /* Espaciado inferior */
+    padding-bottom: 15px;
+}
+
+#imgaprendealicitar img {
+    height: auto; /* Altura automática */
+    width: 15%; /* Ancho máximo relativo */
+    max-width: 15%; /* Ancho máximo relativo */
+    margin: 0 5px; /* Espaciado entre imágenes */
+    max-height: 20vw; /* Altura máxima relativa */
+}
+
+/* Consultas de medios para ajustar el tamaño en resoluciones más pequeñas */
+
+@media only screen and (max-width: 1300px) {
+    #taprendealicitar{
+        font-size: 3vw;
+
+    }
+    #imgaprendealicitar{
+        padding-bottom: 0;
+        
+    }
+    
+    #imgaprendealicitar img {
+
+
+        max-width: 30%; /* Ancho máximo relativo */
+ 
+        max-height: 40vw; /* Altura máxima relativa */
+        padding-bottom: 0;
+    }
+
+
+}

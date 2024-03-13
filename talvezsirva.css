@@ -1,0 +1,20 @@
+#aprendealicitar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#imgaprendealicitar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; /* Espacio entre las imágenes */
+    max-height: 300px; /* Altura máxima de las imágenes */
+    overflow: auto; /* Permitir desplazamiento vertical si es necesario */
+}
+
+#imgaprendealicitar img {
+    max-height: 100%; /* Para que todas las imágenes tengan la misma altura */
+    width: auto; /* Para mantener la proporción */
+    max-width: none; /* Permitir que las imágenes se redimensionen si son más grandes que la altura máxima */
+}

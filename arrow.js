@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     function scrollToElement(element) {
-        var offset = element.offsetTop;
+        var headerHeight = document.querySelector('header').offsetHeight;
+        var offset = element.offsetTop - headerHeight - 80; // Ajustar el margen adicional
         window.scrollTo({
             top: offset,
             behavior: 'smooth'
