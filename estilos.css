@@ -119,12 +119,12 @@ section {
 
 
 footer {
+    font-family: 'Poppins', sans-serif;
     background-color: #333;
     color: #bebebe;
     text-align: center;
     padding: 20px 0;
     font-size: 0.7vw;
-    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -151,9 +151,6 @@ a span img {
     margin-right: 5px;
 }
 
-footer {
-    height: 50px;
-}
 
 
 .whatsapp-float {
@@ -175,3 +172,11 @@ footer {
     height: 40px;
     margin-top: 10px;
   }
+
+
+  @media only screen and (max-width: 900px) {
+    footer {
+        font-size: 12px; /* Reducir el tamaño de la fuente para dispositivos móviles */
+        padding: 15px 0; /* Reducir el espacio alrededor del footer */
+    }
+}
